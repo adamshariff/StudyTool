@@ -1,0 +1,49 @@
+Study Tool Phase 1
+Goals:
+Take input from list
+Take random questions from the list
+Go in order of the list
+Take user answer question
+Check answer from the list
+Display correct answer 
+User can choose problem set
+
+Create or delete or edit list
+
+Question Class
+
+variables question answer qnum prev next
+
+Constructor:
+	Requirements(String Question, String Answer, Int Question number, Question prev, Question next)
+
+Methods:
+getQuestion
+getAnswer
+getQuesNum
+
+Qlist class
+
+Method
+receive list(list name)
+
+Quiz class
+
+Constructor:
+	Requirement(Question list)
+
+Methods
+getQues
+nextQues
+checkQues
+getAns
+
+Model Class
+
+Constructor
+
+Methods 
+
+nextPhase
+
+setUp
